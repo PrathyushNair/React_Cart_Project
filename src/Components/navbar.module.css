@@ -1,0 +1,32 @@
+.maincontainer{
+ 
+    display:flex;
+    justify-content: space-around;
+    gap:30px;
+    text-align: center;
+    height: 90px;
+    padding-top: 20px;
+    background-color: teal;
+    box-sizing: border-box;
+}
+
+.catcontainer{
+   
+    width:80%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding:10px;
+    box-sizing: border-box;
+    color:white;
+}
+
+.lscontainer{
+   
+    width:30%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
