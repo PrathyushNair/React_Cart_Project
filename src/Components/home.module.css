@@ -1,0 +1,9 @@
+.imgdivs{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    width:100%;
+}
+.adddiv{
+    margin-top: 2%;
+}

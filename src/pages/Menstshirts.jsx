@@ -1,7 +1,9 @@
 import React from 'react'
 import styles from "./womenskurtis.module.css"
+import { Link } from 'react-router-dom'
 export const Menstshirts = () => {
   let [tshirts,setTshirts]=React.useState([])
+  let type="menstshirts"
   React.useEffect(()=>{
       fetch(`http://localhost:8000/menstshirts`)
       .then((resp)=>(resp.json()))
@@ -19,6 +21,9 @@ export const Menstshirts = () => {
               <div><s>{el.productstrike}</s></div>
               <div><h4>{el.productdiscountedPrice}</h4></div>
               <div>{el.productdiscountPercentage}</div>
+              <div><button><Link to={`/prods/${type}/${el.productproduct}`}>Show details</Link></button>
+                    <button>Add to Cart</button>
+              </div>
           </div>
           
         ))
