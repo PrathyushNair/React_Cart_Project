@@ -23,9 +23,9 @@ export const Navbar = () => {
                 {kiddrop && <Kidsdrop/>}</div>
             </div>
             <div className={styles.lscontainer}>
-                <button onClick={gotohome}>Home</button>
-                <button style={{cursor:"pointer"}}>Signup</button>
-                <button style={{cursor:"pointer"}}>Login</button>
+                <button className={styles.btn} onClick={gotohome}>Home</button>
+                <button className={styles.btn} style={{cursor:"pointer"}}>Signup</button>
+                <button className={styles.btn} style={{cursor:"pointer"}}>Login</button>
                 <div><i  style={{height:"30px"}}class="fa-solid fa-cart-shopping"></i><span>0</span></div>
             </div>
       </div>

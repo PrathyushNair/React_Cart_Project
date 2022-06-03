@@ -8,6 +8,7 @@
     padding-top: 20px;
     background-color: teal;
     box-sizing: border-box;
+    
 }
 
 .catcontainer{
@@ -20,6 +21,7 @@
     padding:10px;
     box-sizing: border-box;
     color:white;
+    font-size: large;
 }
 
 .lscontainer{
@@ -29,4 +31,11 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
+}
+.btn{
+    background-color: teal;
+    color:white;
+    border:none;
+    font-size: large;
+
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./home.module.css"
+
 export const Home = () => {
   return (
     <div>
@@ -13,9 +14,8 @@ export const Home = () => {
             <div><img alt="deal4" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/6/1/5d972cf2-a6f8-4dec-9df8-0c1e841ad2501654098580425-Best-Of-Kurta-Sets.jpg" /></div>
             <div><img alt="deal5" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/6/1/3f8486f9-fe00-40c2-903c-51151ce1c1261654098635872-Flats---Heels.jpg" /></div>
             <div><img alt="deal6" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/6/1/04d8e4e6-ae47-46bc-8a3c-4ddb919854dd1654098661836-Cotton-Bedsheets--1-.jpg"  /></div>
-            
-           
         </div>
+        
     </div>
   )
 }
