@@ -13,20 +13,24 @@ export const Womenskurtis = () => {
   },[])
   return (
     <div className={styles.maincontainer}>
-        { kurtis.map((el)=>(
-          <div className={styles.eachdiv}>
+        { kurtis.map((el)=>{
+       
+         
+          return(
+            <div className={styles.eachdiv}>
               <div style={{height:"50%"}}><img alt="prods" style={{width:"90%",height:"100%"}}  src={el.imgresponsivesrc}/></div>
               <div><h3>{el.productbrand}</h3></div>
               <div><h4>{el.productproduct}</h4></div>
               <div><s>{el.productstrike}</s></div>
               <div><h4>{el.productdiscountedPrice}</h4></div>
               <div>{el.productdiscountPercentage}</div>
-              <div><button><Link to={`/prods/${type}/${el.productproduct}`}>Show details</Link></button>
-                    <button>Add to Cart</button>
+              <div><button><Link to={`/prods/${type}/${el.productratingsContainer}`}>Show details</Link></button>
+                    
               </div>
           </div>
+          )
           
-        ))
+})
 
         }
     </div>
