@@ -24,7 +24,7 @@ export const Womenskurtis = () => {
               <div><s>{el.productstrike}</s></div>
               <div><h4>{el.productdiscountedPrice}</h4></div>
               <div>{el.productdiscountPercentage}</div>
-              <div><button><Link to={`/prods/${type}/${el.productratingsContainer}`}>Show details</Link></button>
+              <div><button className={styles.btn}><Link style={{color:'white',textDecoration:"none"}}to={`/prods/${type}/${el.productratingsContainer}`}>Show details</Link></button>
                     
               </div>
           </div>

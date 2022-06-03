@@ -1,7 +1,7 @@
 .dropdown{
-    border:1px solid blue;
+    border:2px solid white;
     z-index: 1000;
-    background-color: white;
-    color:black;
+    background-color: Teal;
+    
     cursor: pointer;
 }

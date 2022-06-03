@@ -7,7 +7,7 @@ export const Womensdrop = () => {
   return (
     <div>
         <div onClick={handlewomendrop} className={styles.dropdown}>
-           <Link to="/womens-kurtis"> Womens Kurtis</Link>
+           <Link style={{color:'white',textDecoration:"none"}} to="/womens-kurtis"> Womens Kurtis</Link>
         </div>
     </div>
   )

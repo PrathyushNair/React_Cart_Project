@@ -7,7 +7,7 @@ export const Mensdrop = () => {
   return (
     <div>
         <div onClick={handlemendrop}className={styles.dropdown}>
-           <Link to="/mens-tshirts">Mens T-Shirts</Link> 
+           <Link style={{color:'white',textDecoration:"none"}} to="/mens-tshirts">Mens T-Shirts</Link> 
         </div>
     </div>
   )

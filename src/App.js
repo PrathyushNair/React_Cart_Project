@@ -9,6 +9,7 @@ import { Productdetail } from './Components/Productdetail';
 import { Aboutus } from './pages/Aboutus';
 import { FAQ } from './pages/FAQ';
 import { Footer } from './Components/Footer';
+import { Error } from './pages/Error';
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,8 @@ function App() {
         <Route path="prods/:a/:desc" element={<Productdetail/>}></Route>
         <Route path="/about-us" element={<Aboutus/>} ></Route>
       <Route path="/FAQ" element={<FAQ/>}></Route>
+      <Route path='/*' element={<Error/>}></Route>
+      
       </Routes>
       <Footer/>
 

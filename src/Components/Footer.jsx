@@ -7,8 +7,8 @@ export const Footer = () => {
          <div className={styles.footer}>
           <div>
             <h4>Useful Links</h4>
-            <p><Link to="/about-us">About Us</Link></p>
-            <p><Link to="/FAQ">FAQ</Link></p>
+            <p><Link style={{color:'white',textDecoration:"none"}} to="/about-us">About Us</Link></p>
+            <p><Link style={{color:'white',textDecoration:"none"}} to="/FAQ">FAQ</Link></p>
             <p>Terms of use </p>
             <p>Terms of use</p>
             <p>Job Opportunities</p>

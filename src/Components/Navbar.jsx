@@ -28,7 +28,7 @@ export const Navbar = () => {
                 <button className={styles.btn} onClick={gotohome}>Home</button>
                 <button className={styles.btn} style={{cursor:"pointer"}}>Signup</button>
                 <button className={styles.btn} style={{cursor:"pointer"}}>Login</button>
-                <div><i  style={{height:"30px"}}class="fa-solid fa-cart-shopping"></i><span>{cart.length}</span></div>
+                <div  style={{color:"white"}}><i  style={{marginTop:"10px"}}class="fa-solid fa-cart-shopping"></i><span>{cart.length}</span></div>
             </div>
       </div>
     
